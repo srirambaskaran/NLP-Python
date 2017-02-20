@@ -1,0 +1,7 @@
+start_state = awake
+seed_prob = 1.0
+states=awake,asleep
+emissions=noisy,quiet
+transitionMat=0.6 0.4,0.2 0.8
+emissionMat=0.5 0.5,0.1 0.9
+time=4
